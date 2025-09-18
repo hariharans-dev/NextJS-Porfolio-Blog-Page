@@ -1,0 +1,54 @@
+---
+title: "Trial Post"
+description: "This is a trial blog post using MDX to showcase how a Next.js blog page works."
+slug: "trial-post"
+publishedAt: "2024-01-01"
+updatedAt: "2024-01-01"
+image: "/images/posts/trial-post/preview.png"
+tags: ["nextjs", "blog", "mdx"]
+author:
+  name: "Admin"
+  image: "/images/home/myImage.png"
+---
+
+# Welcome to My First MDX Blog Post 🚀
+
+Hello, my name is **Admin**, and this is my very first post written in **MDX** (Markdown + JSX).  
+This blog is powered by **Next.js**, which means it is fast, SEO-friendly, and fully customizable.
+
+![Trial Blog](/images/posts/trial-post/preview.png)
+
+---
+
+## 📝 Why This Post Exists
+This post is here to test:
+- ✅ **Markdown rendering** (headings, lists, images, and code)
+- ✅ **MDX support** (using components directly inside a post)
+- ✅ **Layout styling** (to make sure everything looks consistent)
+
+---
+
+## 🔧 Tech Stack Behind This Blog
+Here’s what powers this portfolio blog:
+- **Next.js** – for server-side rendering and static generation
+- **MDX** – for writing blog posts using Markdown with React components
+- **Tailwind CSS** – for styling with utility-first classes
+- **Vercel** – for seamless deployment and hosting
+
+---
+
+## 💡 Example Code Block
+Here’s a small Next.js code snippet just to test code highlighting:
+
+```tsx
+import { useState } from "react";
+
+export default function HelloWorld() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <button onClick={() => setCount(count + 1)}>
+      You clicked {count} times
+    </button>
+  );
+}
